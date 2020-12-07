@@ -308,6 +308,53 @@ hr {
   }
   .flex-container {
     padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .h1-text-section {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .flex-container > img {
+    width: 100%;
+    height: unset;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .what-we-do-container {
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .section-header {
+    padding-bottom: 2.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .category-details-left {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .clients-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-top: 0;
+    width: unset;
+  }
+  .client {
+    width: 100%;
+  }
+  .contact-us {
+    padding-top: 0;
   }
 }
 
